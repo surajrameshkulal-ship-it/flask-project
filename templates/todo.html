@@ -112,7 +112,20 @@
         {% endif %}
 
         <form action="/submittodoitem" method="POST">
+    
             <div class="form-group">
+                <label for="itemId">Item ID</label>
+                <input
+                    type="text"
+                    id="itemId"
+                    name="itemId"
+                    placeholder="Enter item ID"
+                    required
+                >
+            </div>
+           
+            <div class="form-group">
+            
                 <label for="itemName">Item Name</label>
 
                 <input
